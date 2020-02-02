@@ -1,0 +1,3 @@
+# Store
+
+Configurem el store.
