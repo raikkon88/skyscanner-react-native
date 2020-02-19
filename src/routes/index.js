@@ -23,7 +23,9 @@ const AppNavigator = createStackNavigator({
     [HOME]: Home,
     [RESULTS]: Results,
     [PROFILE]: Profile,
-});
+}, { headerMode: 'none'});
+
+
 
 // Generem el navegador i al exportar-lo el posem com a varaible global.
 export default createAppContainer(AppNavigator);
